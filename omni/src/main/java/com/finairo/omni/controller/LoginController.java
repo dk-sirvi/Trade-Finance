@@ -37,7 +37,7 @@ public class LoginController {
 			return new ResponseEntity<>(e.getMessage(), HttpStatus.BAD_REQUEST);			
 		}		
 		
-		return new ResponseEntity<>("User Created Succesfully !", HttpStatus.OK);
+		return new ResponseEntity<>("User Created Succesfully!", HttpStatus.OK);
 	}
 	
 
