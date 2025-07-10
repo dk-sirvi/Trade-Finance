@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AAIJI FOREVER | Chemist and Druggist</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo">AAIJI FOREVER <span>Chemist and Druggist</span></div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>We are the best pharmacy in the Palegaon Ambernath</h2>
+    <p>Free Home Delivery | Quality Medicines | Trusted by 10,000+ Customers</p>
+  </section>
+
+  <section class="products">
+    <h2>Our Products</h2>
+
+    <div class="category">
+      <h3>Mom & Baby</h3>
+      <div class="product-grid">
+        <div class="product-card">Paracetamol<br><span>Rs 100</span></div>
+        <div class="product-card">Baby Lotion<br><span>Rs 250</span></div>
+        <div class="product-card">Diapers Pack<br><span>Rs 500</span></div>
+      </div>
+    </div>
+
+    <div class="category">
+      <h3>Skin Care</h3>
+      <div class="product-grid">
+        <div class="product-card">Face Wash<br><span>Rs 180</span></div>
+        <div class="product-card">Sunscreen<br><span>Rs 350</span></div>
+        <div class="product-card">Moisturizer<br><span>Rs 220</span></div>
+      </div>
+    </div>
+
+    <div class="category">
+      <h3>Health & Fitness</h3>
+      <div class="product-grid">
+        <div class="product-card">Vitamin C<br><span>Rs 150</span></div>
+        <div class="product-card">Protein Powder<br><span>Rs 1200</span></div>
+        <div class="product-card">Immunity Booster<br><span>Rs 300</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:dineshsirviabc124@gmail.com">dineshsirviabc124@gmail.com</a></p>
+    <p>Phone: <a href="tel:7231091614">7231091614</a></p>
+    <p>Location: Palegaon, Ambernath (East)</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 AAIJI FOREVER. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #00796b;
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+header .logo span {
+  font-size: 16px;
+  display: block;
+  color: #b2dfdb;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hero {
+  background-color: #ffe0b2;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.hero h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.products {
+  padding: 30px 20px;
+}
+
+.products h2 {
+  text-align: center;
+  color: #00796b;
+}
+
+.category {
+  margin-bottom: 30px;
+}
+
+.category h3 {
+  color: #004d40;
+  margin-bottom: 10px;
+}
+
+.product-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background: white;
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 160px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.05);
+}
+
+.product-card span {
+  display: block;
+  margin-top: 5px;
+  font-weight: bold;
+  color: #00796b;
+}
+
+.contact {
+  background-color: #e0f2f1;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: #004d40;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+}
+
