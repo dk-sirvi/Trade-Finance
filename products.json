@@ -1,0 +1,14 @@
+{
+  "Mom & Baby": [
+    { "name": "Paracetamol", "price": "Rs 100", "image": "images/paracetamol.png" },
+    { "name": "Baby Lotion", "price": "Rs 250", "image": "images/baby-lotion.png" }
+  ],
+  "Skin Care": [
+    { "name": "Sunscreen", "price": "Rs 350", "image": "images/sunscreen.png" },
+    { "name": "Moisturizer", "price": "Rs 220", "image": "images/moisturizer.png" }
+  ],
+  "Health & Fitness": [
+    { "name": "Vitamin C", "price": "Rs 150", "image": "images/vitamin-c.png" },
+    { "name": "Protein Powder", "price": "Rs 1200", "image": "images/protein-powder.png" }
+  ]
+}
